@@ -1,0 +1,82 @@
+[
+	{
+		"name": "MONO POLLO",
+		"imgUrl": "/images/pizzas/chicken/chickenThumb.png",
+		"unitPrice": 2000000,
+    "detail":" (Carne Molida, Aceitunas, Chorizo, Salsa BBQ, Cebolla)",
+		"sizes": {
+			"Small": {
+				"type": "Pequeña",
+				"imgUrl": "/images/pizzas/chicken/chickenSmall.png"
+			},
+			"Medium": {
+				"type": "Mediana",
+				"imgUrl": "/images/pizzas/chicken/chickenMedium.png"
+			},
+			"Large": {
+				"type": "Grande",
+				"imgUrl": "/images/pizzas/chicken/chickenLarge.png"
+			}
+		}
+	},
+	{
+		"name": "MONO HAWAIANA",
+		"imgUrl": "/images/pizzas/pine/pineThumb.png",
+		"unitPrice": 2500000,
+    "detail":" (Carne Molida, Aceitunas, Chorizo, Salsa BBQ, Cebolla)",
+		"sizes": {
+			"Small": {
+				"type": "Pequeña",
+				"imgUrl": "/images/pizzas/pine/pineSmall.png"
+			},
+			"Medium": {
+				"type": "Mediana",
+				"imgUrl": "/images/pizzas/pine/pineMedium.png"
+			},
+			"Large": {
+				"type": "Grande",
+				"imgUrl": "/images/pizzas/pine/pineLarge.png"
+			}
+		}
+	},
+	{
+		"name": "MONO PEPPERONI",
+		"imgUrl": "/images/pizzas/peper/peperThumb.png",
+		"unitPrice": 2800000,
+    "detail":" (Carne Molida, Aceitunas, Chorizo, Salsa BBQ, Cebolla)",
+		"sizes": {
+			"Small": {
+				"type": "Pequeña",
+				"imgUrl": "/images/pizzas/peper/peperSmall.png"
+			},
+			"Medium": {
+				"type": "Mediana",
+				"imgUrl": "/images/pizzas/peper/peperMedium.png"
+			},
+			"Large": {
+				"type": "Grande",
+				"imgUrl": "/images/pizzas/peper/peperLarge.png"
+			}
+		}
+	},
+	{
+		"name": "MONO CARNE",
+		"imgUrl": "/images/pizzas/meat/meatSmall.png",
+		"unitPrice": 2700000,
+    "detail":" (Carne Molida, Aceitunas, Chorizo, Salsa BBQ, Cebolla)",
+		"sizes": {
+			"Small": {
+				"type": "Pequeña",
+				"imgUrl": "/images/pizzas/meat/meatSmall.png"
+			},
+			"Medium": {
+				"type": "Mediana",
+				"imgUrl": "/images/pizzas/meat/meatMedium.png"
+			},
+			"Large": {
+				"type": "Grande",
+				"imgUrl": "/images/pizzas/meat/meatLarge.png"
+			}
+		}
+	}
+]

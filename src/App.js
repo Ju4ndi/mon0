@@ -1,12 +1,17 @@
 import './App.css'
 import GlobalStyles from './Styles'
-import Dashboard from './Features/Dashboard'
+import Container from './shared/Components/Container/index.jsx'
+import ContextProvider from './Features/Dashboard/Context/Context'
 
 function App() {
   return (
     <>
     <GlobalStyles />
-    <Dashboard/>
+      <Container>
+      <ContextProvider>
+
+      </ContextProvider>
+      </Container>
     </>
   )
 }

@@ -1,9 +1,8 @@
 import React from 'react'
+import SpaceStyled from './styles'
 
-const Spacer = () => {
-  
-	return (
-		<h1>Hello world from Spacer</h1>
-	)
+function Spacer({ width, height, background }) {
+	return <SpaceStyled width={ width } height={ height } background={ background } />
 }
+
 export default Spacer

@@ -1,5 +1,5 @@
 import React from 'react'
-import SignUpStyled from '.'
+import SignUpStyled from './styles'
 import { useForm } from 'react-hook-form'
 import { useNavigate } from 'react-router-dom'
 import Input from '../../shared/Components/Input'

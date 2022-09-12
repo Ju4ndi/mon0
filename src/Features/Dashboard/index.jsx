@@ -1,9 +1,9 @@
 import React from 'react'
-import Spacer from '../../shared/Components/Spacer'
+import Hello from '../../Components/Welcome'
 
 const Dashboard = () => {
 	return (
-		<Spacer />
+		<Hello />
 	)
 }
 export default Dashboard

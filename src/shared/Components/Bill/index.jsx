@@ -1,5 +1,5 @@
 import React from 'react'
-import BillStyled from '.'
+import BillStyled from './styles'
 import { useNavigate } from 'react-router-dom'
 import routesConstants from '../../../Utils/Constants/routes'
 import { ReactComponent as BillView } from '../../../shared/Images/bill.svg'

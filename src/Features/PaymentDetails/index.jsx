@@ -1,13 +1,13 @@
 import React from 'react'
-import PaymentDetailsStyled from '.'
+import PaymentDetailsStyled from './styles'
 import mono from '../../shared/Images/monoPay.svg'
 import GoForward from '../../shared/Components/GoForward'
 import routesConstants from '../../Utils/Constants/routes'
 import useCart from '../Dashboard/Hooks/useCart.js'
 import { globalAttributes, formVariant } from '../../Utils/Variants'
 
-const PaymentDetails = () => {
-  const {  getTotal } = useCart()
+function PaymentDetails() {
+  // const {  getTotal } = useCart()
 
 	return (
 		<PaymentDetailsStyled { ...globalAttributes } variants={ formVariant }>
@@ -27,7 +27,7 @@ const PaymentDetails = () => {
           <h5 className='detail'>¡Tu orden ha sido <br></br>confirmada!</h5>
         
           <div className='priceContainerTotal'>
-            <p>${ getTotal() }</p>
+            {/* <p>${ getTotal() }</p> */}
           </div>
 
          <div className='listOne'>
@@ -52,27 +52,27 @@ const PaymentDetails = () => {
 
           <div className='price-details'>
             <p>Pago Total</p>
-            <p>${ getTotal() }</p>
+            {/* <p>${ getTotal() }</p> */}
           </div>  
 
           <div className='price-details'>
             <p>Impuesto</p>
-            <p>${ getTotal() }</p>
+            {/* <p>${ getTotal() }</p> */}
           </div>
           
           <div className='price-details'>
             <p>Domicilio</p>
-            <p>${ getTotal() }</p>
+            {/* <p>${ getTotal() }</p> */}
           </div>
           
           <div className='price-details'>
             <p>App</p>
-            <p>${ getTotal() }</p>
+            {/* <p>${ getTotal() }</p> */}
           </div>
 
         </div>
           <div className='priceContainer2'>
-            <p>Total</p>${ getTotal() }
+            {/* <p>Total</p>${ getTotal() } */}
           </div>
 
 

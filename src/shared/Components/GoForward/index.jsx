@@ -1,10 +1,10 @@
 import React from 'react'
-import GoForwardStyled from '.'
+import GoForwardStyled from './styles'
 import { useNavigate } from 'react-router-dom'
 import routesConstants from '../../../Utils/Constants/routes'
 import { ReactComponent as GoForwardIcon } from '../../../shared/Images/goForward.svg'
 
-const GoForward = ({ route, stroke = '#003760' }) => {
+function GoForward({ route, stroke = '#003760' }) {
 	const navigate = useNavigate()
 
 	const handleclick = () => {

@@ -59,11 +59,11 @@ function SignUp() {
              <h3>Crea tu cuenta</h3>
 
 				<form>
-					<Input { ...generalProps } data={ registerInputData.name } />
-          <Input { ...generalProps } data={registerInputData.email} />
-          <Input { ...generalProps } data={registerInputData.password} />
+					{/* <Input { ...generalProps } data={ registerInputData.name } />
+          <Input { ...generalProps } data={ registerInputData.email } />
+          <Input { ...generalProps } data={ registerInputData.password } />
 					<Input { ...generalProps } data={ registerInputData.phone_number } />
-					<Input { ...generalProps } data={ registerInputData.address } />
+					<Input { ...generalProps } data={ registerInputData.address } /> */}
         </form>
         
 				<Button handleClick={ handleSubmit(onSubmit) }>

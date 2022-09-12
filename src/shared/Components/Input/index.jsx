@@ -2,7 +2,7 @@ import Spacer from '../Spacer'
 import React from 'react'
 import InputStyled from './styles'
 
-const Input = ({ err, data, register, required = true }) => {
+function Input({ err, data, register, required = true }) {
 	const error = err[data.name]
 
 	return (
@@ -10,11 +10,7 @@ const Input = ({ err, data, register, required = true }) => {
 			<span>{ data.placeholder }</span>
 			<Spacer height='0.1rem' />
 			<label className='inputContainer'>
-				<input
-          autoComplete='none'
-					placeholder={ data.placeholder }
-					type={ data.type }
-					maxLength={ data.maxLength }
+				<input autoComplete='none' placeholder={ data.placeholder } type={ data.type } maxLength={ data.maxLength }
 					{ ...register(data.name, {
 						required: {
 							value: required,

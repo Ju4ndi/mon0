@@ -1,5 +1,6 @@
 import './App.css'
 import GlobalStyles from './Styles'
+import SignIn from './Features/SignIn'
 import SignUp from './Features/SignUp'
 import Sending from './Features/Sending'
 import InitialScreen from './Features/InitialScreen'
@@ -18,7 +19,7 @@ function App() {
           <BrowserRouter>
            <Routes>
             {/* <Route path={ routesConstants.cart } element={ <Cart /> } /> */}
-            {/* <Route path={ routesConstants.signIn } element={ <SignIn /> } /> */}
+            <Route path={ routesConstants.signIn } element={ <SignIn /> } />
             {/* <Route path={ routesConstants.popup } element={ <PopUp /> } /> */}
             <Route path={ routesConstants.signUp } element={ <SignUp /> } />
             {/* <Route path={ routesConstants.address } element={ <Address /> } /> */}

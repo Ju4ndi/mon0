@@ -1,5 +1,5 @@
 import React from 'react'
-import HomeIconStyled from '.'
+import HomeIconStyled from './styles'
 import { useNavigate } from 'react-router-dom'
 import routesConstants from '../../../Utils/Constants/routes'
 import { ReactComponent as Icon } from '../../Images/homeIcon.svg'

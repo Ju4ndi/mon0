@@ -10,7 +10,6 @@ function Sending() {
 
   return (
 	  <SendingStyled { ...globalAttributes } variants={ formVariant }>
-
 			<div className="container-photo">
         <img src={ deliveryImage } alt='deliveryImage' />
       </div>

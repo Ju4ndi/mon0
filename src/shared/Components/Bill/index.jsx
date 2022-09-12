@@ -4,7 +4,7 @@ import { useNavigate } from 'react-router-dom'
 import routesConstants from '../../../Utils/Constants/routes'
 import { ReactComponent as BillView } from '../../../shared/Images/bill.svg'
 
-const Bill = ({ route, stroke = '#003760' }) => {
+function Bill({ route, stroke = '#003760' }) {
 	const navigate = useNavigate()
 
 	const handleclick = () => {

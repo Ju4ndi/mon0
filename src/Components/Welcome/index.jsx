@@ -1,9 +1,8 @@
-import React from 'react'
+import React from "react"
+import ContainerStyled from "./styles"
 
- const Welcome = () => {
-  
-	return (
-		<h1>Hello world!!!!!!</h1>
-	)
+function Hello() { 
+  return <ContainerStyled><div> Hi World From Hello </div></ContainerStyled>
 }
- export default Welcome
+
+export default Hello

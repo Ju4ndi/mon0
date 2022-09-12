@@ -1,6 +1,6 @@
-import Spacer from '.'
+import Spacer from '../Spacer'
 import React from 'react'
-import InputStyled from './'
+import InputStyled from './styles'
 
 const Input = ({ err, data, register, required = true }) => {
 	const error = err[data.name]

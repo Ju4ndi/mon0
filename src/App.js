@@ -1,6 +1,6 @@
 import './App.css'
 import GlobalStyles from './Styles'
-// import SignUp from './Features/SignUp'
+import SignUp from './Features/SignUp'
 import Sending from './Features/Sending'
 import InitialScreen from './Features/InitialScreen'
 import routesConstants from './Utils/Constants/routes'
@@ -20,7 +20,7 @@ function App() {
             {/* <Route path={ routesConstants.cart } element={ <Cart /> } /> */}
             {/* <Route path={ routesConstants.signIn } element={ <SignIn /> } /> */}
             {/* <Route path={ routesConstants.popup } element={ <PopUp /> } /> */}
-            {/* <Route path={ routesConstants.signUp } element={ <SignUp /> } /> */}
+            <Route path={ routesConstants.signUp } element={ <SignUp /> } />
             {/* <Route path={ routesConstants.address } element={ <Address /> } /> */}
             <Route path={ routesConstants.sending } element={ <Sending /> } />
             {/* <Route path={ routesConstants.dashboard } element={ <Dashboard /> } /> */}

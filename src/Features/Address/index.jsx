@@ -53,6 +53,7 @@ const Address = () => {
         <Spacer height='2rem' />
         
 				<form>
+				<br /><input type="text" name="name" /><br />
 					{/* <Input { ...generalProps } data={ registerInputData.address } /> */}
         </form>
         

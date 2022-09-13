@@ -1,6 +1,6 @@
 import useContext from 'react'
-import Context from '../Context/Context.js'
-import items from '../../../utils/data/pizzas.json'
+import Context from '../Context/Context'
+import items from '../../../Utils/Data/pizzas.json'
 
 const useItems = () => {
 	const { setCurrentItem, currentItem, cartItems } = useContext(Context)

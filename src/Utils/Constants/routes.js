@@ -1,6 +1,5 @@
 const routesConstants = {
   cart: '/cart',
-  hello: '/hello',
   popup: '/popup',
 	signUp: '/signUp',
 	signIn: '/signIn',

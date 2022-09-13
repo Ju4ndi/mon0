@@ -63,6 +63,7 @@ const SignIn = () => {
         <Spacer height='1rem' />
 
 				<form>
+        <br /><input type="text" name="name" /><br /><br /><input type="text" name="name" /><br />
 					{/* <Input { ...generalProps } data={ signInInputData.email } />
 					<Input { ...generalProps } data={ signInInputData.password } /> */}
         </form>

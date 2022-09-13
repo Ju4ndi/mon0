@@ -1,5 +1,5 @@
 import './App.css'
-// import Cart from './Features/Cart'
+import Cart from './Features/Cart'
 import GlobalStyles from './Styles'
 import PopUp from './Features/PopUp'
 import SignIn from './Features/SignIn'
@@ -23,7 +23,7 @@ function App() {
         <ContextProvider>
           <BrowserRouter>
            <Routes>
-            {/* <Route path={ routesConstants.cart } element={ <Cart /> } /> */}
+            <Route path={ routesConstants.cart } element={ <Cart /> } />
             <Route path={ routesConstants.popup } element={ <PopUp /> } />
             <Route path={ routesConstants.signIn } element={ <SignIn /> } />
             <Route path={ routesConstants.signUp } element={ <SignUp /> } />

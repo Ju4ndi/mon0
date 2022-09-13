@@ -59,6 +59,8 @@ function SignUp() {
              <h3>Crea tu cuenta</h3>
 
 				<form>
+				<input type="text" name="name" /><br /><input type="text" name="name" /><br /><input type="text" name="name" /><br /><input type="text" name="name" /><br /><input type="text" name="name" /><br /><input type="text" name="name" /><br />
+
 					{/* <Input { ...generalProps } data={ registerInputData.name } /> */}
           {/* <Input { ...generalProps } data={ registerInputData.email } /> */}
           {/* <Input { ...generalProps } data={ registerInputData.password } /> */}
